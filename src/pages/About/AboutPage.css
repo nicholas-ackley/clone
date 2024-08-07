@@ -1,0 +1,97 @@
+.about-page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    color: blue;
+    /* background-color: red; */
+    
+}
+.vscode-window-container{
+    width: 100%;
+    height: 980px;
+  background-color: rgb(43, 43, 43);
+
+    border-radius: 2%;
+    border: 2px solid white;
+    position: absolute;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+}
+.vscode-window{
+    width: 100px;
+    height: auto;
+    /* align-items: left; */
+    position: relative;
+    box-shadow: 2px 2px rgb(114, 107, 107);
+
+
+    
+}
+.about-me-container{
+    width: 1000px;
+    height: 200px;
+    background-color: #272C34;
+    outline-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: rgb(255, 255, 255);
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    
+
+}
+.profile-container{
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.ais{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+.about-me-title{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 100px;
+
+}
+.utd-logo{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.utd{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

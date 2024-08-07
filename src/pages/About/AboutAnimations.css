@@ -1,0 +1,82 @@
+/* src/components/VSCodeBio.css */
+
+.vscode-container {
+    background: #1e1e1e;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 255, 0);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 900px;
+    height: auto;
+    margin: 50px auto;
+    position: relative;
+    left: -300px;
+    top: 150px;
+    text-align: center;
+
+  }
+  
+  .title-bar {
+    background: #333333;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    
+  }
+  
+  .title-bar-text {
+    text-align: center;
+  }
+  
+  .code-window {
+    padding: 20px;
+    white-space: pre-wrap;
+  }
+  
+  .typing-animation {
+    display: inline-block;
+  }
+  
+  /* src/components/VSCodeBio.css */
+
+.vscode-hobby-container {
+    background: #1e1e1e;
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 900px;
+    height: auto;
+    margin: 50px auto;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    text-align: center;
+
+  }
+  
+  .hobby-title-bar {
+    background: #333333;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .hobby-title-bar-text {
+    text-align: center;
+  }
+  
+  .hobby-code-window {
+    padding: 20px;
+    white-space: pre-wrap;
+  }
+  
+  .hobby-typing-animation {
+    display: inline-block;
+  }
+  
+.testing1{
+  position: absolute;
+  top: 1000px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.project-experience {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    background-color: rgb(24, 24, 24); 
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #fff; /* White text */
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #fff; /* White text */
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #6ca7eb; /* Highlight color */
+  }
+  

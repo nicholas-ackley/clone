@@ -1,0 +1,72 @@
+/* src/Card.css */
+.card {
+  background: linear-gradient(135deg, #0a0a3b, #1a1a4e);
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+  z-index: 0;
+}
+
+.card:hover::before {
+  top: -40%;
+  left: -40%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.card h2,
+.card p {
+  position: relative;
+  z-index: 1;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.75em;
+}
+
+.card p {
+  margin: 10px 0 0;
+  color: #ccc;
+}
+.cardContainer{
+  position: relative;
+  top: 300px;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-radius: 2%;
+  border: 1px solid rgb(129, 129, 129);
+}
